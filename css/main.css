@@ -15,8 +15,10 @@ body {
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-weight: 100;
   text-align: center;
-  color: white;
-  text-shadow: 1px 1px 1px gray; }
+  color: black;
+  text-shadow: 1px 1px 1px gray; 
+  background-color: rgba(233, 76, 33, 0.7);
+}
 
 div {
   background: #cccccc;
@@ -61,6 +63,7 @@ h2 {
 
 .context {
   background: gray;
+    color: white;
   margin: 0; }
 
 #profile-pic {
@@ -70,19 +73,13 @@ h2 {
 }
 
 #content-block, #profile-details {
-  background: #b3b3b3;
-  border-bottom: 2px solid gray; }
+  background: rgb(255, 251, 234);
+  border-bottom: 2px solid rgb(210, 202, 167); }
   @media screen and (min-width: 320px) and (max-width: 480px) {
     #content-block {
       margin-bottom: 10px; } }
   #content-block p {
     margin-top: 10px; }
-  #content-block .highlight {
-    font-size: 90%;
-    color: #0b71bf;
-    background: white;
-    opacity: .8;
-    text-shadow: none; }
 
 #container {
   background: #e6e6e6;
